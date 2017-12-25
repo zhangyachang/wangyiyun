@@ -217,6 +217,7 @@ $(function(){
     $Audio.on("loadstart",function(){
         num = 0;
         $("#lyricList").html("");
+         $("#lyricList").css("top",0);
 
 
         var $songImage = $person.find("img"),
@@ -268,7 +269,6 @@ $(function(){
         if($TotalTime){
             $allTime.html(allTime);
         }
-
 
     }
 
