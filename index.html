@@ -1,0 +1,327 @@
+<!doctype html>  <!-- 声明文档类型-->
+<html>
+<head>
+    <!--声明当前页面的编码集：charset=gbk,gb2312(中文编码),utf-8国际编码-->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <title>HTMl模板</title> 
+    <meta name="Keyword" content="关键词,关键词">
+    <meta name="description" content="描述">
+    <!--样式-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_510724_x5y4sr01e2162yb9.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body ondragstart="return false">
+    <!--header-->
+    <div class="content header clearfix">
+        <div class="logo fl">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="search fl">
+            <i class="iconfont icon-arrow-left1 search-i on"></i>
+            <i class="iconfont icon-right search-i"></i>
+            <input type="text" id="searchInput" placeholder="搜索音乐，视频，歌词，电台">
+            <i class="iconfont icon-sousuo"></i>
+
+        </div>
+        <div class="login fl clearfix">
+            <img src="images/idimg.png" alt="">
+            <span>未登录</span>
+            <i class="iconfont icon-f11-copy"></i>
+            <i class="iconfont icon-yifu"></i>
+            <i class="iconfont icon-youjian"></i>
+            <i class="iconfont icon-ttpodicon"></i>
+        </div>
+        <div class="h-button fr">
+            <i class="iconfont icon-zuidahua"></i>
+            <i class="iconfont icon-zuixiaohua1"></i>
+            <i class="iconfont icon-fangkuang1"></i>
+            <i class="iconfont icon-guanbi"></i>
+        </div>
+    </div>
+
+    <!--containter-->
+    <div class="container clearfix">
+        <div class="containerMain">
+            <!--中间内容的左半部分 开始-->
+            <div class="con-list fl">
+                <div class="recommend">
+                    <p>推荐</p>
+                    <ul>
+                        <li>
+                            <i class="iconfont icon-yinle"></i>
+                            <span>发现音乐</span>
+                        </li>
+                        <li>
+                            <i class="iconfont icon-xinhao-right"></i>
+                            <span>私人FM</span>
+
+                        </li>
+                        <li>
+                            <i class="iconfont icon-shipin"></i>
+                            <span>MV</span>
+                        </li>
+                        <li>
+                            <i class="iconfont icon-pengyou"></i>
+                            <span>朋友</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mymusic">
+                    <p>我的音乐</p>
+                    <ul>
+                        <li>
+                            <i class="iconfont icon-bendiyinle"></i>
+                            <span>本地音乐</span>
+                        </li>
+                        <li>
+                            <i class="iconfont icon-xiazai"></i>
+                            <span>下载管理</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="create-music">
+                    <p>创建的歌单</p>
+                    <i></i>
+                    <i></i>
+                    <ul>
+                        <li>
+                            <i class="iconfont icon-woxihuande"></i>
+                            <span>我喜欢的音乐</span>
+                        </li>
+                        <li>
+                            <i class="iconfont icon-woxihuande"></i>
+                            <span>欧美音乐</span>
+                        </li>
+                        <li>
+                            <i class="iconfont icon-woxihuande"></i>
+                            <span>我爱摇滚</span>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="person clearfix">
+                    <div class="singer fl">
+                        <img src="images/idimg.png" alt="">
+                    </div>
+                    <div class="singename fl">
+                        <p class="songname">演员</p>
+                        <p class="singername">薛之谦</p>
+                    </div>
+                    <i class="iconfont icon-woxihuande"></i>
+                </div>
+
+            </div>
+            <!--中间内容的左半部分结束-->
+            <!--中间内容的右半部分 开始-->
+            <div class="con-right fl">
+                <!--中间内容的右半部分上部分 开始 -->
+                <div class="con-right-height">
+                    <div>
+                        <!--中间内容的右半部分 开始-->
+                        <div class="con-top">
+                            <div class="con-loginImage clearfix">
+                                <div class="fl">
+                                    <img src="images/bigface.png" alt="">
+                                </div>
+                                <div class="con-imgRight fl clearfix">
+
+                                    <div class="clearfix">
+                                        <h3><span>歌单</span>我喜欢的音乐</h3>
+
+                                        <div class="con-imgRight-number fl" >
+                                            <p>歌曲数 1</p>
+                                            <p>播放数 1</p>
+                                        </div>
+                                    </div>
+                                    <div class="time">
+                                        <img src="images/idimg.png" alt="">
+                                        <span>小小小小小Z11</span>
+                                        <span class="time-timer">2017-12-15创建</span>
+                                    </div>
+                                    <div class="con-top-download">
+                                        <ul>
+                                            <li>
+                                                <i class="iconfont icon-bofang"></i>
+                                                <span>播放全部</span>
+                                                <i class="iconfont icon-jian"></i>
+                                            </li>
+                                            <li>
+                                                <i class="iconfont icon-zengjia"></i>
+                                                <span>收藏</span>
+                                                <span>(0)</span>
+                                            </li>
+                                            <li>
+                                                <i class="iconfont icon-fenxiang"></i>
+                                                <span>分享</span>
+                                                <span>(0)</span>
+                                            </li>
+                                            <li>
+                                                <i class="iconfont icon-xiazai"></i>
+                                                <span>下载全部</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--右半部分的下半部分 开始-->
+                        <div class="bottom">
+                            <ul class="clearfix">
+                                <li class="on">歌曲列表</li>
+                                <li>
+                                    评论(0)
+                                </li>
+                                <li>
+                                    收藏者
+                                </li>
+                            </ul>
+                            <div class="input">
+                                <input type="text" placeholder="搜索歌单音乐">
+                                <i class="iconfont icon-sousuo"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--歌曲列表 开始-->
+                    <div class="con-right-table">
+                        <table id="table">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                    <td>音乐标题</td>
+                                    <td>歌手</td>
+                                    <td>专辑</td>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody">
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <div class="pageBody">
+                        <p id="firstPage">首页</p>
+                        <p id="prevPage">上一页</p>
+                        <p id="nextPage">下一页</p>
+                        <p id="lastPage">尾页</p>
+                    </div>
+                </div>
+            </div>
+            <!--中间内容的右半部分 结束-->
+            <!--滚动条开始-->
+            <div class="scroll">
+                <div class="bar" id="bar1"></div>
+            </div>
+            <!--滚动条结束-->
+        </div>
+        <!--点击左下角图片的遮罩层-->
+        <!--<div class="cover clearfix">
+            <div class="cover-left fl">
+                <div class="singer">
+                    <img src="images/bigface.png" alt="">
+                </div>
+            </div>
+            <div class="cover-lyric fl">
+                <h3>好想抱着你(31秒铃声版)</h3>
+                <div class="hide">
+                    <i class="iconfont icon-enlarge"></i>
+
+                </div>
+                <div class="info">
+                    <ul class="clearfix">
+                        <li>
+                            <em>专辑 :</em>
+                            <span>未知</span>
+                        </li>
+                        <li>
+                            <em>歌手 :</em>
+                            <span>陈伟霆</span>
+                        </li>
+                        <li>
+                            <em>来源 :</em>
+                            <span>本地音乐</span>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="cover-lyric2">
+                    <ul>
+                        <li>你问我爱你有多深</li>
+                        <li>你问我爱你有多深</li>
+                        <li>你问我爱你有多深</li>
+                        <li>你问我爱你有多深</li>
+                        <li>你问我爱你有多深</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>-->
+        <div class="contentDetails">
+            <div class="cd">
+                <div class="cdbg">
+                    <img src="http://i.gtimg.cn/music/photo/mid_album_300/R/U/00116f791scVRU.jpg" alt="">
+                </div>
+            </div>
+            <!--geci-->
+            <div class="lyric">
+                <div class="top">
+                    <h1>Hotel California</h1>
+                    <p>专辑：<span class="songname">我好想你 (Live)</span></p>
+                    <p>歌手：<span class="singername">苏打绿</span></p>
+                    <i class="iconfont icon-zuixiaohua"></i>
+                </div>
+                <div class="bottom">
+                    <div class="lyricBody">
+                        <ul id="lyricList">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <!--footer-->
+    <div class="footer clearfix">
+        <div class="button fl clearfix">
+            <p class="prevSong"></p>
+            <p class="play" id="play1"></p>
+            <p class="nextSong"></p>
+        </div>
+        <div class="time">
+            <div class="time-timer fl">
+                <span id="nowTime">02:11</span>
+                <div class="bar">
+                    <p id="footer-bar">
+                        <span></span>
+                    </p>
+                    <span class="red"></span>
+                </div>
+                <span id="allTime">05:43</span>
+            </div>
+
+        </div>
+        <div class="volume fl">
+            <i class="iconfont icon-yinliang"></i>
+            <p id="volume-p">
+                <span id="volume-span">
+                    <em></em>
+                </span>
+            </p>
+            <p class="red2"></p>
+        </div>
+    </div>
+
+    <!--将歌词转化为我们能看懂的-->
+    <div class="FMlyric" style="display:none;"></div>
+
+    <audio src="http://ws.stream.qqmusic.qq.com/102943390.m4a?fromtag=46" data-fy="aaaa"></audio>
+
+</body>	
+</html>
